@@ -80,6 +80,15 @@ All files owned by SIG testing were moved from /devel to the new folder /devel/s
 ### Reopening PRs
 There are moments where PRs can take longer than you may expect. Therefore, if no reviewer picked up on it within a day or so, it is suggested that you'd close the PR and reopen a new one / reassign to a different person.
 
+### Issue labels
+Labels are the way Kubernetes issues are identified. This [labels.md] file has a list of all labels that can be applied to all repos.
+
+#### What is a good Github issue label?
+Good issue labels help to manage issues efficiently. Some important labels that you can use to start you PR are:
+  - `/sig SIG_NAME` This one helps to assign a proper SIG for the ownership of the issue.
+  - `/area AREA_NAME` This is used to associate issues or PRs to a specific area.
+  - `/kind CATEGORY` This labels helps to categorize the issue.
+
 ### About trivial fixes
 Trivial fixes or edits are always the best candidates for new contributors, and we believe this is a smooth way to introduce them to any subproject in the Kubernetes organization. However, it is more beneficial if we take the entire document which we are working with and give it a full review. One of the main benefits of this is to have just one PR with most the the changes regarding typos. Learn more about [trivial] fixes.
 
@@ -102,3 +111,4 @@ The main purpose of squashing commits is to have a good readability of the git h
 [trivial]: http://git.k8s.io/community/contributors/guide/pull-requests.md#10-trivial-edits
 [Github workflow and branching]: https://github.com/kubernetes/community/blob/master/contributors/guide/github-workflow.md#3-branch
 [squashing commits]: https://github.com/kubernetes/community/blob/master/contributors/guide/pull-requests.md#6-squashing-and-commit-titles
+[labels.md]: https://github.com/kubernetes/test-infra/blob/master/label_sync/labels.md
